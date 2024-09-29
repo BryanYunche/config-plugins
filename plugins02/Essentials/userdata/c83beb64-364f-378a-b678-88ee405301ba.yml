@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.255.194.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1726896826151
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726198868667
+  login: 1726894828319
+  kits:
+    color: 1725744457970
+    dtools: 1725744477106
+    firework: 1725744497287
+    notch: 1725744523649
+    tools: 1725744541054
+    minerador: 1725773010158
+    construtor: 1725745869525
+    explorador: 1725745887195
+    pvp: 1726895174690
+money: '451.9'
+last-account-name: Bryan_Young
+logoutlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: -38.45354272445684
+  y: 91.36346492198697
+  z: -142.9669781708129
+  yaw: 50.0992431640625
+  pitch: 14.400059700012207
+lastlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: 228.60335544284476
+  y: 66.0
+  z: -810.5851696812405
+  yaw: -96.1318359375
+  pitch: -10.298933982849121

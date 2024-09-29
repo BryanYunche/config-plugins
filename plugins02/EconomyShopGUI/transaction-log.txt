@@ -1,0 +1,3 @@
+[2024-09-21 02:13:29] - ofranbraga sold 4 x Coal(Ores.page1.items.2) for $15 with the sell all command.
+[2024-09-21 02:14:23] - ofranbraga sold 21 x Porkchop(Food.page1.items.19) for $31.50 with the sell all command.
+[2024-09-21 02:37:30] - ofranbraga sold 5 x Iron Ingot(Ores.page1.items.7) for $31.25 with the sell all command.

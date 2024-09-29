@@ -1,0 +1,43 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.82.250.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1726896101223
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726897092966
+  login: 1726895071314
+  kits:
+    minerador: 1726895087642
+    pvp: 1726895100079
+    explorador: 1726895121630
+    construtor: 1726895151534
+money: '77.75'
+last-account-name: ofranbraga
+lastlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: 0.0
+  y: 83.0
+  z: 0.0
+  yaw: 41.933563232421875
+  pitch: 48.57358932495117
+logoutlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: 319.74290705730994
+  y: 109.0
+  z: -774.8303592956867
+  yaw: -178.31884765625
+  pitch: 33.292236328125

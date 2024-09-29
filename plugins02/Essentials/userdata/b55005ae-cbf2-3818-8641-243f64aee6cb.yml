@@ -1,0 +1,34 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.114.24.84
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1725829516511
+  login: 1725829366456
+  kits:
+    construtor: 1725767170626
+    explorador: 1725767252942
+    pvp: 1725767813652
+money: '172.5'
+last-account-name: Tsukki
+logoutlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: 165.30000001192093
+  y: 77.0
+  z: 94.81774790728548
+  yaw: 33.750457763671875
+  pitch: 21.150009155273438

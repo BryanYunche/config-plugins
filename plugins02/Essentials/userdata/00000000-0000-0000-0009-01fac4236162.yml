@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.239.105.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1725922697457
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1725922801142
+  login: 1725922609416
+money: '0'
+last-account-name: .Skzinhosk8
+lastlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: -15.510107
+  y: 79.0
+  z: -16.018147
+  yaw: -126.76593017578125
+  pitch: 1.365478515625
+logoutlocation:
+  world: 6884ee48-fa53-4f24-8c54-e0bce5f6e5ca
+  world-name: Mundo_Mitico
+  x: 5.1792517
+  y: 103.0
+  z: -72.61088
+  yaw: 88.5096435546875
+  pitch: 68.17926025390625

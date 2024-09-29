@@ -1,0 +1,146 @@
+#################################################################################
+#                                                                               #
+# Configurações da GUI                                                          #
+#                                                                               #
+#################################################################################
+# Nesta categoria, você pode alterar TODAS as GUIs do plugin
+# Lembre-se de que algumas configurações podem estar na configuração específica de um trabalho
+# Para mais informações, consulte nosso wiki (https://github.com/Picono435/PicoJobs/wiki)
+gui-settings:
+  #######################
+  # Menu GUI Escolher Trabalho #
+  #######################
+  choose-job:
+    # O título da GUI
+    title: "Escolha um Trabalho"
+    # O tamanho da GUI
+    size: 54
+    # Se tem um item no lugar onde não há trabalhos ;)
+    put-background-item: true
+    # Nome do item de fundo
+    item-name: "&cEscolha Seu Trabalho, PicoJobs"
+    # Namespace do item de fundo...
+    item: "WHITE_STAINED_GLASS"
+    # O dado do item de fundo, SOMENTE VERSÕES LEGADAS
+    item-data: 1
+    # O custom model data do item de fundo, SOMENTE 1.14+
+    custom-model-data: 0
+    # Se o item de fundo deve estar encantado ou não
+    enchanted: false
+    
+  #######################################################
+  # Menu GUI Trabalhos que ainda não aceitaram o trabalho #
+  #######################################################
+  need-work:
+    # O título da GUI
+    title: "- Menu Aceitar Trabalho -"
+    # O tamanho da GUI
+    size: 27
+    # Se tem um item no lugar onde não há trabalhos ;)
+    put-background-item: false
+    # Nome do item de fundo
+    item-name: "&cAceite seu trabalho, PicoJobs"
+    # O namespace do item de fundo...
+    item: "WHITE_STAINED_GLASS"
+    # O dado do item de fundo, SOMENTE VERSÕES LEGADAS
+    item-data: 1
+    # Se o item deve ser encantado ou não
+    enchanted: false
+    items:
+      salary:
+        # O nome do item
+        name: "&eSalário"
+        # O slot do item
+        slot: 11
+        # O lore do item
+        lore:
+          - ""
+          - "&7Clique para receber seu salário!"
+          - "&7Seu salário é: %jobplayer_salary%"
+        # A ação que será executada quando alguém clicar no item
+        action: salary
+        # O nome do material
+        material: "PAPER"
+        # O dado do item, SOMENTE VERSÕES LEGADAS
+        item-data: 0
+        # O custom model data do item de fundo, SOMENTE 1.14+
+        custom-model-data: 0
+        # Se o item está encantado ou não
+        enchanted: false
+        
+      accept-work:
+        name: "&aAceitar o trabalho"
+        slot: 14
+        lore:
+          - ""
+          - "&7Clique aqui para aceitar seu trabalho"
+          - "&7O que você precisa fazer: %jobplayer_work%"
+        action: acceptwork
+        material: "REDSTONE_TORCH"
+        item-data: 0
+        custom-model-data: 0
+        enchanted: false
+        
+      leave-job:
+        name: "&aDeixar seu trabalho"
+        slot: 17
+        lore:
+          - ""
+          - "&7Clique aqui para deixar seu trabalho"
+          - "&7Você perderá metade do seu salário"
+        action: leavejob
+        material: "BARRIER"
+        item-data: 0
+        custom-model-data: 0
+        enchanted: true
+        
+  ##############################################
+  # Menu GUI Trabalhos que já possuem um trabalho #
+  ##############################################
+  has-work:
+    title: " Status do Trabalho"
+    size: 27
+    put-background-item: false
+    item-name: "&cEscolha Seu Trabalho, PicoJobs"
+    item: "WHITE_STAINED_GLASS"
+    item-data: 1
+    enchanted: false
+    items:
+      salary:
+        name: "&eSalário"
+        slot: 11
+        lore:
+          - ""
+          - "&7Clique para receber seu salário!"
+          - "&7Seu salário é: %jobplayer_salary%"
+        action: salary
+        material: "PAPER"
+        item-data: 0
+        custom-model-data: 0
+        enchanted: false
+        
+      status-work:
+        name: "&aStatus do trabalho"
+        slot: 14
+        lore:
+          - ""
+          - "&7Confira abaixo o status do seu trabalho!"
+          - "&7O que você precisa fazer: %jobplayer_work%"
+        action: none
+        material: "REDSTONE_TORCH"
+        item-data: 0
+        custom-model-data: 0
+        enchanted: true
+        
+      leave-job:
+        name: "&aDeixar seu trabalho"
+        slot: 17
+        lore:
+          - ""
+          - "&7Clique aqui para deixar seu trabalho"
+          - "&7Você perderá metade do seu salário"
+        action: leavejob
+        material: "BARRIER"
+        item-data: 0
+        custom-model-data: 0
+        enchanted: true

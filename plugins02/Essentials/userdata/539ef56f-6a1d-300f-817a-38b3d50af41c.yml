@@ -1,0 +1,33 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.70.214.111
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1725768706247
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1725770835557
+  kits:
+    explorador: 1725767072876
+    minerador: 1725768317278
+money: '1000'
+last-account-name: yuri181893
+lastlocation:
+  world: aeb650b9-61fc-4351-b14b-d96a84640fae
+  world-name: world
+  x: 346.93887728334306
+  y: 65.0
+  z: 411.62451996175497
+  yaw: 78.00006866455078
+  pitch: 7.800023078918457

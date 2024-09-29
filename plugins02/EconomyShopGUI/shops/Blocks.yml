@@ -1,0 +1,134 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: DIRT
+        buy: 0.1
+        sell: 0.02
+      '2':
+        material: GRASS_BLOCK
+        buy: 0.15
+        sell: 0.04
+      '3':
+        material: STONE
+        buy: 0.5
+        sell: 0.12
+      '4':
+        material: COBBLESTONE
+        buy: 0.68
+        sell: 0.17
+      '5':
+        material: SAND
+        buy: 0.2
+        sell: 0.05
+      '6':
+        material: GRAVEL
+        buy: 0.25
+        sell: 0.06
+      '7':
+        material: OAK_LOG
+        buy: 1
+        sell: 0.25
+      '8':
+        material: BIRCH_LOG
+        buy: 1
+        sell: 0.25
+      '9':
+        material: SPRUCE_LOG
+        buy: 1
+        sell: 0.25
+      '10':
+        material: OAK_PLANKS
+        buy: 0.25
+        sell: 0.06
+      '11':
+        material: BIRCH_PLANKS
+        buy: 0.25
+        sell: 0.06
+      '12':
+        material: SPRUCE_PLANKS
+        buy: 0.25
+        sell: 0.06
+      '13':
+        material: CLAY
+        buy: 0.75
+        sell: 0.18
+      '14':
+        material: BRICKS
+        buy: 1.5
+        sell: 0.38
+      '15':
+        material: SANDSTONE
+        buy: 0.5
+        sell: 0.12
+      '16':
+        material: RED_SANDSTONE
+        buy: 0.75
+        sell: 0.19
+
+  page2:
+    items:
+      '17':
+        material: NETHERRACK
+        buy: 0.2
+        sell: 0.05
+      '18':
+        material: OBSIDIAN
+        buy: 400
+        sell: 1.25
+      '19':
+        material: CRYING_OBSIDIAN
+        buy: 800
+        sell: 1.5
+      '20':
+        material: GLOWSTONE
+        buy: 3
+        sell: 0.75
+      '21':
+        material: PRISMARINE
+        buy: 2
+        sell: 0.5
+      '22':
+        material: ACACIA_LOG
+        buy: 1
+        sell: 0.25
+      '23':
+        material: DARK_OAK_LOG
+        buy: 1
+        sell: 0.25
+      '24':
+        material: JUNGLE_LOG
+        buy: 1
+        sell: 0.25
+      '25':
+        material: OAK_LEAVES
+        buy: 0.1
+        sell: 0.02
+      '26':
+        material: SPRUCE_LEAVES
+        buy: 0.1
+        sell: 0.02
+      '27':
+        material: BIRCH_LEAVES
+        buy: 0.1
+        sell: 0.02
+      '28':
+        material: PODZOL
+        buy: 0.5
+        sell: 0.12
+      '29':
+        material: MOSS_BLOCK
+        buy: 0.25
+        sell: 0.06
+      '30':
+        material: MYCELIUM
+        buy: 0.5
+        sell: 0.12
+      '31':
+        material: BASALT
+        buy: 0.5
+        sell: 0.12
+      '32':
+        material: SOUL_SAND
+        buy: 0.75
+        sell: 0.19

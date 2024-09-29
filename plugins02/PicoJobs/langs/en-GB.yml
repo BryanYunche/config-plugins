@@ -1,0 +1,117 @@
+# Este arquivo é um arquivo de idioma, aqui você pode alterar todas as mensagens para este idioma
+# A maioria das mensagens configuráveis neste arquivo funcionará com placeholders de jogador e servidor
+#
+# NOTA:
+# Para usar qualquer placeholder externo, você pode precisar instalar um
+# plugin/mod de API de placeholders. Para mais informações, consulte a wiki (https://github.com/Picono435/PicoJobs/wiki/Placeholders)
+#
+#################################################################################
+#                                                                               #
+# Mensagens gerais                                                              #
+#                                                                               #
+#################################################################################
+# Nesta categoria, você pode alterar as mensagens gerais do plugin
+no-permission: "&cEi! Você não tem permissão para executar esse comando."
+ignore-action: "&cEi! Não seja preguiçoso e vá falar com o NPC."
+choosed-job: "&aParabéns! Você escolheu o trabalho %jobplayer_job%&a."
+accepted-work: "&aVocê aceitou o trabalho de %jobplayer_work%."
+no-salary: "&cVocê não tem salário suficiente para receber! Por favor, vá trabalhar ;("
+got-salary: "&aÓtimo trabalho! Você acabou de receber seu salário de %jobplayer_salary%!"
+finished-work: "&aParabéns! Você acabou de finalizar seu trabalho. Use /jobs para obter mais informações sobre ele."
+need-level: "&cEi! Você precisa fazer %a% trabalhos para executar essa ação."
+no-args: "&cEi! Por favor, use uma sintaxe válida."
+my-salary: "&aVocê tem %jobplayer_salary%$ de salário."
+unknow-job: "&cEsse trabalho não foi encontrado, por favor, use o TAB para completar e obter uma lista de trabalhos."
+# Nas mensagens de cooldown, você pode usar os placeholders: %cooldown_mtime% -> Tempo no Minecraft // %cooldown_time% -> Tempo Real
+salary-cooldown: "&cVocê precisa esperar mais %cooldown_mtime% antes de receber seu salário novamente."
+leave-cooldown: "&cVocê precisa esperar mais %cooldown_mtime% antes de sair de um trabalho novamente."
+work-status: "&aAqui está o que você precisa fazer: %jobplayer_work%"
+admin-commands: |-
+  &6Lista completa de comandos:
+  &e/jobsadmin help &6- &eVeja essas mensagens
+  &e/jobsadmin info <player> &6- &eObtém informações sobre um jogador
+  &e/jobsadmin reload &6- &eRecarrega todas as configurações possíveis.
+  &e/jobsadmin update &6- &eInstala uma atualização do plugin
+  &e/jobsadmin about &6- &eObtém informações sobre o servidor e o plugin
+  &e/jobsadmin set <salary | method | job> <player> <amount | job> &6- &eDefine o salário/método de um jogador
+  &e/jobsadmin editor &6- &eCria uma sessão de editor web
+  &e/jobsadmin applyedits &6- &eAplica as edições de uma sessão do editor web
+member-commands: |-
+  &6Lista completa de comandos:
+  &e/jobs help &6- &eVeja essas mensagens
+  &e/jobs choose <job> &6- &eEscolha seu trabalho
+  &e/jobs work &6- &eVeja o status/Aceite seu trabalho
+  &e/jobs salary &6- &eVerifique seu salário
+  &e/jobs withdraw &6- &eSaque seu salário
+  &e/jobs leave &6- &eSaia do trabalho
+info-command: |-
+  &6Status do jogador %player_name%
+  &eSalário: %jobplayer_salary%
+  &eEstá trabalhando: %jobplayer_working%
+  &eTrabalho: %jobplayer_work%
+  &eEmprego: %jobplayer_job%
+reload-command: "&aConfigurações, trabalhos e idioma foram recarregados com sucesso."
+player-not-found: "&cEsse jogador não está online, por favor, insira um jogador válido."
+unknow-error: "&cOcorreu um erro desconhecido, por favor, verifique o console para mais informações."
+left-job: "&cVocê agora está desempregado! Certifique-se de conseguir um novo trabalho e começar a ganhar dinheiro novamente."
+already-updated: "&cO plugin já está na versão mais recente, para mais informações verifique nossa WIKI."
+update-started: "&aA atualização do plugin PicoJobs começou, por favor, aguarde..."
+updated-sucefully: "&aO plugin foi atualizado com sucesso, por favor, reinicie o servidor para finalizar a atualização."
+sucefully: "&aA ação foi realizada com sucesso."
+invalid-arg: "&aO argumento enviado é inválido. Por favor, verifique o erro de digitação."
+
+#################################################################################
+#                                                                               #
+# Mensagens de formato                                                          #
+#                                                                               #
+#################################################################################
+# Nesta categoria, você pode alterar os formatos de placeholders e outras coisas
+# Todas essas mensagens funcionam com placeholders de jogador (pode ser necessária uma API de placeholders)
+# Quando algo não for encontrado, o que deve aparecer
+none-format: "Nenhum"
+default-tag: ""
+
+#################################################################################
+#                                                                               #
+# Traduções de comandos                                                         #
+#                                                                               #
+#################################################################################
+# Nesta categoria, você pode adicionar aliases para todos os comandos do plugin
+aliases:
+  jobs: ["jobs", "trabalho"]
+  jobsadmin: ["jobsadmin", "admintrabalho"]
+  choose: "escolher"
+  work: "trabalho"
+  salary: "salario"
+  withdraw: "retirar"
+  leave: "sair"
+  help: "ajuda"
+  info: "info"
+  reload: "recarregar"
+  update: "atualizar"
+  about: "sobre"
+  set: "definir"
+  method: "metodo"
+  job: "trabalho"
+  editor: "editor"
+  applyedits: "aplicarEdicoes"
+
+#################################################################################
+#                                                                               #
+# Traduções de tempo                                                            #
+#                                                                               #
+#################################################################################
+# Nesta categoria, você pode alterar todas as traduções de tempo
+seconds: "segundos"
+second: "segundo"
+minutes: "minutos"
+minute: "minuto"
+hours: "horas"
+hour: "hora"
+days: "dias"
+day: "dia"
+months: "meses"
+month: "mês"
+years: "anos"
+year: "ano"
+and: "e"

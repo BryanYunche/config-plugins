@@ -1,0 +1,432 @@
+#################################################################################
+#                                                                               #
+# Jobs configurations                                                           #
+#                                                                               #
+#################################################################################
+# Nesta categoria você pode criar, editar e alterar os trabalhos para o plugin
+# Se você quiser saber uma lista completa dos tipos de trabalho, vá para https://github.com/Picono435/PicoJobs/wiki/Types-of-jobs
+jobs:
+  # Este é um exemplo de trabalho de caçador
+  hunter:
+    # O nome exibido do trabalho
+    displayname: "&eCaçador"
+    # A tag do trabalho
+    tag: "&e[H]"
+    # Os tipos de trabalho
+    types: [kill_entity, fill_entity]
+    # Coloque aqui os kills padrão, (essa mudança depende da frequência)
+    method: 10
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 1053
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      kill_entity: [
+  "minecraft:cow", "minecraft:pig", "minecraft:chicken", "minecraft:sheep", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:creeper"]
+
+      fill_entity: ["minecraft:cow"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "mate %a% mobs"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 11
+      # O item que você deseja representar o trabalho
+      item: "GOLDEN_SWORD"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe caçando"
+        - "&8 animais"
+
+  # Este é um exemplo de trabalho de encantador
+  enchanter:
+    # O nome exibido do trabalho
+    displayname: "&cEncantador"
+    # A tag do trabalho
+    tag: "&c[E]"
+    # O tipo de trabalho
+    types: [enchanting]
+    # Coloque aqui os kills padrão, (essa mudança depende da frequência)
+    method: 10
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 1200
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    # use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    # whitelist: ["minecraft:diamond_sword"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "encante %a% itens"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 14
+      # O item que você deseja representar o trabalho
+      item: "ENCHANTING_TABLE"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe encantando"
+        - "&8 itens"
+      
+  # Este é um exemplo de trabalho de madeireiro
+  woodcutter:
+    # O nome exibido do trabalho
+    displayname: "&6Madeireiro"
+    # A tag do trabalho
+    tag: "&6[W]"
+    # O tipo de trabalho
+    types: [break]
+    # Coloque aqui os kills padrão, (essa mudança depende da frequência)
+    method: 15
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 800
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      break:
+        - minecraft:oak_wood
+        - minecraft:oak_log
+        - minecraft:birch_wood
+        - minecraft:birch_log
+        - minecraft:jungle_wood
+        - minecraft:jungle_log
+        - minecraft:acacia_wood
+        - minecraft:acacia_log
+        - minecraft:dark_oak_wood
+        - minecraft:dark_oak_log
+        - minecraft:spruce_wood
+        - minecraft:spruce_log
+    # A mensagem de trabalho que você deseja usar
+    work-message: "corte %a% madeiras"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 17
+      # O item que você deseja representar o trabalho
+      item: "DIAMOND_AXE"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe cortando"
+        - "&8 árvores"
+      
+  # Este é um exemplo de trabalho de minerador
+  miner:
+    # O nome exibido do trabalho
+    displayname: "&7Minerador"
+    # A tag do trabalho
+    tag: "&7[M]"
+    # O tipo de trabalho
+    types: [break]
+    # Coloque aqui os kills padrão, (essa mudança depende da frequência)
+    method: 10
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 1500
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      break:
+        - minecraft:gold_ore
+        - minecraft:iron_ore
+        - minecraft:coal_ore
+        - minecraft:lapis_ore
+        - minecraft:diamond_ore
+        - minecraft:redstone_ore
+        - minecraft:emerald_ore
+        - minecraft:nether_quartz_ore
+        - minecraft:nether_gold_ore
+        - minecraft:copper_ore
+        - minecraft:deepslate_gold_ore
+        - minecraft:deepslate_iron_ore
+        - minecraft:deepslate_coal_ore
+        - minecraft:deepslate_lapis_ore
+        - minecraft:deepslate_diamond_ore
+        - minecraft:deepslate_redstone_ore
+        - minecraft:deepslate_emerald_ore
+        - minecraft:deepslate_copper_ore
+    # A mensagem de trabalho que você deseja usar
+    work-message: "minere %a% minérios"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 20
+      # O item que você deseja representar o trabalho
+      item: "DIAMOND_PICKAXE"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe minerando"
+        - "&8 minérios"
+          # Este é um exemplo de trabalho de construtor
+  builder:
+    # O nome exibido do trabalho
+    displayname: "&dConstrutor"
+    # A tag do trabalho
+    tag: "&d[C]"
+    # O tipo de trabalho
+    types: [place]
+    # Coloque aqui os valores padrão, (essa mudança depende da frequência)
+    method: 35
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 70
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      place: ["minecraft:bricks"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "coloque %a% tijolos"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 23
+      # O item que você deseja representar o trabalho
+      item: "BRICKS"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe construindo"
+        - "&8 com tijolos"
+      
+  # Este é um exemplo de trabalho de escavador
+  digger:
+    # O nome exibido do trabalho
+    displayname: "&3Escavador"
+    # A tag do trabalho
+    tag: "&3[E]"
+    # O tipo de trabalho
+    types: [break]
+    # Coloque aqui os valores padrão, (essa mudança depende da frequência)
+    method: 25
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 120
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.3
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      break: ["minecraft:dirt", "minecraft:grass", "minecraft:grass_block"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "cave %a% terras"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 26
+      # O item que você deseja representar o trabalho
+      item: "IRON_SHOVEL"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe escavando"
+        - "&8 terra"
+      
+  # Este é um exemplo de trabalho de artesão
+  craftsman:
+    # O nome exibido do trabalho
+    displayname: "&aArtesão"
+    # A tag do trabalho
+    tag: "&a[A]"
+    # O tipo de trabalho
+    types: [craft]
+    # Coloque aqui os valores padrão, (essa mudança depende da frequência)
+    method: 10
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 69
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.5
+    # A frequência do método do trabalho
+    method-frequency: 0.8
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    # use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    # whitelist: ["minecraft:diamond_sword"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "crie %a% itens"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 29
+      # O item que você deseja representar o trabalho
+      item: "CRAFTING_TABLE"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe criando"
+        - "&8 itens"
+      
+  # Este é um exemplo de trabalho de pescador
+  fisherman:
+    # O nome exibido do trabalho
+    displayname: "&bPescador"
+    # A tag do trabalho
+    tag: "&b[P]"
+    # O tipo de trabalho
+    types: [fishing]
+    # Coloque aqui os valores padrão, (essa mudança depende da frequência)
+    method: 25
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 240
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.2
+    # A frequência do método do trabalho
+    method-frequency: 0.4
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    use-whitelist: false
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    whitelist:
+      fishing: ["minecraft:name_tag"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "pesque %a% peixes"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 32
+      # O item que você deseja representar o trabalho
+      item: "FISHING_ROD"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe pescando"
+        - "&8 peixes"
+      
+  # Este é um exemplo de trabalho de ferreiro
+  weaponsmith:
+    # O nome exibido do trabalho
+    displayname: "&8Ferreiro"
+    # A tag do trabalho
+    tag: "&8[F]"
+    # O tipo de trabalho
+    types: [repair]
+    # Coloque aqui os valores padrão, (essa mudança depende da frequência)
+    method: 8
+    # Se o jogador precisa de uma permissão para obter o trabalho. Lista de nós de permissão em https://github.com/Picono435/PicoJobs/wiki/Permissions
+    require-permission: false
+    # O salário do trabalho (será multiplicado pelo nível e frequência)
+    salary: 280
+    # O salário máximo que você pode ganhar
+    max-salary: 50000
+    # A frequência do salário do trabalho
+    salary-frequency: 0.6
+    # A frequência do método do trabalho
+    method-frequency: 0.6
+    # O método de pagamento que deve ser usado. Para mais informações, consulte https://github.com/Picono435/PicoJobs/wiki/Economy-Types
+    economy: DEFAULT
+    # Use whitelist ou blacklist - OPCIONAL [requires="whitelist"]
+    # use-whitelist: true
+    # A whitelist/blacklist de blocos, dependendo do que está em use-whitelist - OPCIONAL
+    # whitelist: ["minecraft:diamond_sword"]
+    # A mensagem de trabalho que você deseja usar
+    work-message: "repare %a% itens"
+    # Escolha as configurações do Menu de Trabalho
+    gui:
+      # O slot onde o item será colocado
+      slot: 35
+      # O item que você deseja representar o trabalho
+      item: "DIAMOND_SWORD"
+      # Os dados do item LEGACY SOMENTE
+      item-data: 0
+      # Se você deseja que o item seja encantado ou não
+      enchanted: false
+      # O lore do item (o que aparece abaixo, você pode usar placeholders aqui)
+      lore:
+        - "&8Ganhe reparando"
+        - "&8 ferramentas"
